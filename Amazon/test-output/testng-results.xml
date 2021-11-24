@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18116" started-at="2021-11-12T06:29:56 UTC" finished-at="2021-11-12T06:30:14 UTC">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18116" started-at="2021-11-12T06:29:56 UTC" finished-at="2021-11-12T06:30:14 UTC">
+      <class name="in.amazon.testscripts.DDFTest">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:in.amazon.testscripts.DDFTest@63440df3]" name="launchApplication" is-config="true" duration-ms="2459" started-at="2021-11-12T06:29:56 UTC" finished-at="2021-11-12T06:29:59 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="invalidUserShouldNotBeAbleToLogin()[pri:0, instance:in.amazon.testscripts.DDFTest@63440df3]" name="invalidUserShouldNotBeAbleToLogin" duration-ms="15500" started-at="2021-11-12T06:29:59 UTC" finished-at="2021-11-12T06:30:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserShouldNotBeAbleToLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.amazon.testscripts.DDFTest@63440df3]" name="closeBrowser" is-config="true" duration-ms="80" started-at="2021-11-12T06:30:14 UTC" finished-at="2021-11-12T06:30:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.amazon.testscripts.DDFTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
